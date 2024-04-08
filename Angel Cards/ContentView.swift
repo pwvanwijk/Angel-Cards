@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Angel Cards
 //
-//  Created by Flip van Wijk on 08/04/2024.
+//  Created by Flip van Wijk and Pieter Jonker on 08/04/2024.
 //
 
 import SwiftUI
