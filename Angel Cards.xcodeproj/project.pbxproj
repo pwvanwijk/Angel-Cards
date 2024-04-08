@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C303EF4F2BC42D5400A98FB8 /* Angel_CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303EF4E2BC42D5400A98FB8 /* Angel_CardsApp.swift */; };
+		C303EF512BC42D5400A98FB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303EF502BC42D5400A98FB8 /* ContentView.swift */; };
+		C303EF532BC42D5400A98FB8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303EF522BC42D5400A98FB8 /* Item.swift */; };
+		C303EF552BC42D5500A98FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C303EF542BC42D5500A98FB8 /* Assets.xcassets */; };
+		C303EF582BC42D5500A98FB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C303EF572BC42D5500A98FB8 /* Preview Assets.xcassets */; };
+		C303EF622BC42D5500A98FB8 /* Angel_CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303EF612BC42D5500A98FB8 /* Angel_CardsTests.swift */; };
+		C303EF6C2BC42D5500A98FB8 /* Angel_CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303EF6B2BC42D5500A98FB8 /* Angel_CardsUITests.swift */; };
+		C303EF6E2BC42D5500A98FB8 /* Angel_CardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303EF6D2BC42D5500A98FB8 /* Angel_CardsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C303EF5E2BC42D5500A98FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C303EF432BC42D5400A98FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C303EF4A2BC42D5400A98FB8;
+			remoteInfo = "Angel Cards";
+		};
+		C303EF682BC42D5500A98FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C303EF432BC42D5400A98FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C303EF4A2BC42D5400A98FB8;
+			remoteInfo = "Angel Cards";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C303EF4B2BC42D5400A98FB8 /* Angel Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angel Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C303EF4E2BC42D5400A98FB8 /* Angel_CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_CardsApp.swift; sourceTree = "<group>"; };
+		C303EF502BC42D5400A98FB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C303EF522BC42D5400A98FB8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C303EF542BC42D5500A98FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C303EF572BC42D5500A98FB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C303EF5D2BC42D5500A98FB8 /* Angel CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Angel CardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C303EF612BC42D5500A98FB8 /* Angel_CardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_CardsTests.swift; sourceTree = "<group>"; };
+		C303EF672BC42D5500A98FB8 /* Angel CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Angel CardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C303EF6B2BC42D5500A98FB8 /* Angel_CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_CardsUITests.swift; sourceTree = "<group>"; };
+		C303EF6D2BC42D5500A98FB8 /* Angel_CardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_CardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C303EF482BC42D5400A98FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C303EF5A2BC42D5500A98FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C303EF642BC42D5500A98FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C303EF422BC42D5400A98FB8 = {
+			isa = PBXGroup;
+			children = (
+				C303EF4D2BC42D5400A98FB8 /* Angel Cards */,
+				C303EF602BC42D5500A98FB8 /* Angel CardsTests */,
+				C303EF6A2BC42D5500A98FB8 /* Angel CardsUITests */,
+				C303EF4C2BC42D5400A98FB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C303EF4C2BC42D5400A98FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C303EF4B2BC42D5400A98FB8 /* Angel Cards.app */,
+				C303EF5D2BC42D5500A98FB8 /* Angel CardsTests.xctest */,
+				C303EF672BC42D5500A98FB8 /* Angel CardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C303EF4D2BC42D5400A98FB8 /* Angel Cards */ = {
+			isa = PBXGroup;
+			children = (
+				C303EF4E2BC42D5400A98FB8 /* Angel_CardsApp.swift */,
+				C303EF502BC42D5400A98FB8 /* ContentView.swift */,
+				C303EF522BC42D5400A98FB8 /* Item.swift */,
+				C303EF542BC42D5500A98FB8 /* Assets.xcassets */,
+				C303EF562BC42D5500A98FB8 /* Preview Content */,
+			);
+			path = "Angel Cards";
+			sourceTree = "<group>";
+		};
+		C303EF562BC42D5500A98FB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C303EF572BC42D5500A98FB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C303EF602BC42D5500A98FB8 /* Angel CardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C303EF612BC42D5500A98FB8 /* Angel_CardsTests.swift */,
+			);
+			path = "Angel CardsTests";
+			sourceTree = "<group>";
+		};
+		C303EF6A2BC42D5500A98FB8 /* Angel CardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C303EF6B2BC42D5500A98FB8 /* Angel_CardsUITests.swift */,
+				C303EF6D2BC42D5500A98FB8 /* Angel_CardsUITestsLaunchTests.swift */,
+			);
+			path = "Angel CardsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C303EF4A2BC42D5400A98FB8 /* Angel Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C303EF712BC42D5500A98FB8 /* Build configuration list for PBXNativeTarget "Angel Cards" */;
+			buildPhases = (
+				C303EF472BC42D5400A98FB8 /* Sources */,
+				C303EF482BC42D5400A98FB8 /* Frameworks */,
+				C303EF492BC42D5400A98FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Angel Cards";
+			productName = "Angel Cards";
+			productReference = C303EF4B2BC42D5400A98FB8 /* Angel Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C303EF5C2BC42D5500A98FB8 /* Angel CardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C303EF742BC42D5500A98FB8 /* Build configuration list for PBXNativeTarget "Angel CardsTests" */;
+			buildPhases = (
+				C303EF592BC42D5500A98FB8 /* Sources */,
+				C303EF5A2BC42D5500A98FB8 /* Frameworks */,
+				C303EF5B2BC42D5500A98FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C303EF5F2BC42D5500A98FB8 /* PBXTargetDependency */,
+			);
+			name = "Angel CardsTests";
+			productName = "Angel CardsTests";
+			productReference = C303EF5D2BC42D5500A98FB8 /* Angel CardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C303EF662BC42D5500A98FB8 /* Angel CardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C303EF772BC42D5500A98FB8 /* Build configuration list for PBXNativeTarget "Angel CardsUITests" */;
+			buildPhases = (
+				C303EF632BC42D5500A98FB8 /* Sources */,
+				C303EF642BC42D5500A98FB8 /* Frameworks */,
+				C303EF652BC42D5500A98FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C303EF692BC42D5500A98FB8 /* PBXTargetDependency */,
+			);
+			name = "Angel CardsUITests";
+			productName = "Angel CardsUITests";
+			productReference = C303EF672BC42D5500A98FB8 /* Angel CardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C303EF432BC42D5400A98FB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C303EF4A2BC42D5400A98FB8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C303EF5C2BC42D5500A98FB8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C303EF4A2BC42D5400A98FB8;
+					};
+					C303EF662BC42D5500A98FB8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C303EF4A2BC42D5400A98FB8;
+					};
+				};
+			};
+			buildConfigurationList = C303EF462BC42D5400A98FB8 /* Build configuration list for PBXProject "Angel Cards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C303EF422BC42D5400A98FB8;
+			productRefGroup = C303EF4C2BC42D5400A98FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C303EF4A2BC42D5400A98FB8 /* Angel Cards */,
+				C303EF5C2BC42D5500A98FB8 /* Angel CardsTests */,
+				C303EF662BC42D5500A98FB8 /* Angel CardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C303EF492BC42D5400A98FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C303EF582BC42D5500A98FB8 /* Preview Assets.xcassets in Resources */,
+				C303EF552BC42D5500A98FB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C303EF5B2BC42D5500A98FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C303EF652BC42D5500A98FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C303EF472BC42D5400A98FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C303EF512BC42D5400A98FB8 /* ContentView.swift in Sources */,
+				C303EF532BC42D5400A98FB8 /* Item.swift in Sources */,
+				C303EF4F2BC42D5400A98FB8 /* Angel_CardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C303EF592BC42D5500A98FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C303EF622BC42D5500A98FB8 /* Angel_CardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C303EF632BC42D5500A98FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C303EF6E2BC42D5500A98FB8 /* Angel_CardsUITestsLaunchTests.swift in Sources */,
+				C303EF6C2BC42D5500A98FB8 /* Angel_CardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C303EF5F2BC42D5500A98FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C303EF4A2BC42D5400A98FB8 /* Angel Cards */;
+			targetProxy = C303EF5E2BC42D5500A98FB8 /* PBXContainerItemProxy */;
+		};
+		C303EF692BC42D5500A98FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C303EF4A2BC42D5400A98FB8 /* Angel Cards */;
+			targetProxy = C303EF682BC42D5500A98FB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C303EF6F2BC42D5500A98FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C303EF702BC42D5500A98FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C303EF722BC42D5500A98FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Angel Cards/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y6V97C8W2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindandsoulnetwork.Angel-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C303EF732BC42D5500A98FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Angel Cards/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y6V97C8W2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindandsoulnetwork.Angel-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C303EF752BC42D5500A98FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y6V97C8W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindandsoulnetwork.Angel-CardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angel Cards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Angel Cards";
+			};
+			name = Debug;
+		};
+		C303EF762BC42D5500A98FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y6V97C8W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindandsoulnetwork.Angel-CardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angel Cards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Angel Cards";
+			};
+			name = Release;
+		};
+		C303EF782BC42D5500A98FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y6V97C8W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindandsoulnetwork.Angel-CardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Angel Cards";
+			};
+			name = Debug;
+		};
+		C303EF792BC42D5500A98FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y6V97C8W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindandsoulnetwork.Angel-CardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Angel Cards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C303EF462BC42D5400A98FB8 /* Build configuration list for PBXProject "Angel Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C303EF6F2BC42D5500A98FB8 /* Debug */,
+				C303EF702BC42D5500A98FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C303EF712BC42D5500A98FB8 /* Build configuration list for PBXNativeTarget "Angel Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C303EF722BC42D5500A98FB8 /* Debug */,
+				C303EF732BC42D5500A98FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C303EF742BC42D5500A98FB8 /* Build configuration list for PBXNativeTarget "Angel CardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C303EF752BC42D5500A98FB8 /* Debug */,
+				C303EF762BC42D5500A98FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C303EF772BC42D5500A98FB8 /* Build configuration list for PBXNativeTarget "Angel CardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C303EF782BC42D5500A98FB8 /* Debug */,
+				C303EF792BC42D5500A98FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C303EF432BC42D5400A98FB8 /* Project object */;
+}
