@@ -96,10 +96,13 @@
 		C303EF4D2BC42D5400A98FB8 /* Angel Cards */ = {
 			isa = PBXGroup;
 			children = (
+				C303F1732BC4352D00A98FB8 /* Common */,
+				C303F1662BC4313200A98FB8 /* Modules */,
+				C303F1672BC4314E00A98FB8 /* Services */,
 				C303EF4E2BC42D5400A98FB8 /* Angel_CardsApp.swift */,
 				C303EF502BC42D5400A98FB8 /* ContentView.swift */,
 				C303EF522BC42D5400A98FB8 /* Item.swift */,
-				C303EF542BC42D5500A98FB8 /* Assets.xcassets */,
+				C303F1762BC437FB00A98FB8 /* Resources */,
 				C303EF562BC42D5500A98FB8 /* Preview Content */,
 			);
 			path = "Angel Cards";
@@ -128,6 +131,75 @@
 				C303EF6D2BC42D5500A98FB8 /* Angel_CardsUITestsLaunchTests.swift */,
 			);
 			path = "Angel CardsUITests";
+			sourceTree = "<group>";
+		};
+		C303F1662BC4313200A98FB8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C303F1702BC4336B00A98FB8 /* SettingsModule */,
+				C303F16F2BC4333E00A98FB8 /* TodayModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C303F1672BC4314E00A98FB8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C303F16F2BC4333E00A98FB8 /* TodayModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TodayModule;
+			sourceTree = "<group>";
+		};
+		C303F1702BC4336B00A98FB8 /* SettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingsModule;
+			sourceTree = "<group>";
+		};
+		C303F1712BC433A100A98FB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C303F1732BC4352D00A98FB8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C303F1752BC437A500A98FB8 /* Views */,
+				C303F1742BC4379E00A98FB8 /* API */,
+				C303F1712BC433A100A98FB8 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C303F1742BC4379E00A98FB8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C303F1752BC437A500A98FB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C303F1762BC437FB00A98FB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C303EF542BC42D5500A98FB8 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
